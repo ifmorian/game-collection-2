@@ -1,0 +1,18 @@
+.redirect {
+  display: flex;
+  align-items: center;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.redirect__arrow {
+  transition: margin .3s ease;
+}
+
+.redirect:hover > .redirect__arrow {
+  margin-left: 5%;
+}
+
+.redirect:active > .redirect__arrow{
+  margin-left: 50%;
+}
